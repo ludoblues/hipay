@@ -1,6 +1,6 @@
 {
   "name": "hipay",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "NodeJS SDK",
   "main": "index.js",
   "scripts": {
