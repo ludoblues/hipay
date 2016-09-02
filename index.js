@@ -23,8 +23,8 @@ class HiPay {
 
     this.passphrase = credentials.passphrase;
 
-    this.baseUrlGateway = credentials.mod === 'production' ? BASE_URL_GATEWAY_PROD : BASE_URL_GATEWAYL_TEST;
-    this.baseUrlTokenization = credentials.mod === 'production' ? BASE_URL_TOKENIZATION_PROD : BASE_URL_TOKENIZATIONL_TEST;
+    this.baseUrlGateway = credentials.mod === 'production' ? BASE_URL_GATEWAY_PROD : BASE_URL_GATEWAY_TEST;
+    this.baseUrlTokenization = credentials.mod === 'production' ? BASE_URL_TOKENIZATION_PROD : BASE_URL_TOKENIZATION_TEST;
 
     this.isInitialized = true;
   }
