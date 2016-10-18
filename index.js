@@ -161,7 +161,10 @@ class HiPay {
       const options = {
         method: 'GET',
         url: `${this.baseUrlTokenization}/token/${data.token}`,
-        json: order,
+        form: data,
+        headers: {
+          Accept: 'application/json'
+        },
         auth: this.auth,
         qs: { request_id: data.requestId }
       };
@@ -181,7 +184,10 @@ class HiPay {
       const options = {
         method: 'POST',
         url: `${this.baseUrlTokenization}/token/create`,
-        json: card,
+        form: card,
+        headers: {
+          Accept: 'application/json'
+        },
         auth: this.auth
       };
 
@@ -200,7 +206,10 @@ class HiPay {
       const options = {
         method: 'POST',
         url: `${this.baseUrlTokenization}/token/update`,
-        json: data,
+        form: data,
+        headers: {
+          Accept: 'application/json'
+        },
         auth: this.auth
       };
 
