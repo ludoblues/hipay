@@ -9,3 +9,7 @@
 ## [1.0.2] - 2016-09-02
 ### Fixed
 - Fix typo on constant
+
+## [1.0.3] - 2016-10-18
+### Fixed
+- Hipay tokenization API does not support json
