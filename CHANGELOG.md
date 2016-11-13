@@ -14,6 +14,10 @@
 ### Fixed
 - Hipay tokenization API does not support json
 
-## [1.0.4] - 2016-11-14
+## [2.0.0] - 2016-11-14
 ### Changed
 - The card tokens are now return as JSON objects
+
+## [2.0.1] - 2016-11-14
+### Fixed
+- Wrong version specified in changelog file
