@@ -194,7 +194,7 @@ class HiPay {
       request(options, (err, response, body) => {
         if (err || response.statusCode >= 400) return reject(err || body);
 
-        resolve(body);
+        resolve(JSON.parse(body));
       });
     });
   }
