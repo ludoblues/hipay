@@ -25,3 +25,7 @@
 ## [2.0.2] - 2016-12-14
 ### Fixed
 - Fix production url
+
+## [2.0.3] - 2016-12-14
+### Fixed
+- Fix production url
