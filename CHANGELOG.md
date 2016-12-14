@@ -21,3 +21,7 @@
 ## [2.0.1] - 2016-11-14
 ### Fixed
 - Wrong version specified in changelog file
+
+## [2.0.2] - 2016-12-14
+### Fixed
+- Fix production url
