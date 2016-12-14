@@ -3,10 +3,10 @@ const request = require('request');
 const crypto = require('crypto');
 
 const BASE_URL_GATEWAY_TEST = 'https://stage-secure-gateway.hipay-tpp.com/rest/v1';
-const BASE_URL_GATEWAY_PROD = 'https://secure-gateway.hipay-tpp.com/rest/v1/'
+const BASE_URL_GATEWAY_PROD = 'https://secure-gateway.hipay-tpp.com/rest/v1'
 
 const BASE_URL_TOKENIZATION_TEST = 'https://stage-secure-vault.hipay-tpp.com/rest/v1';
-const BASE_URL_TOKENIZATION_PROD = 'https://secure-vault.hipay-tpp.com/rest/v1/'
+const BASE_URL_TOKENIZATION_PROD = 'https://secure-vault.hipay-tpp.com/rest/v1'
 
 class HiPay {
   constructor() {
