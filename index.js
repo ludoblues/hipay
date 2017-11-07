@@ -140,6 +140,9 @@ class HiPay {
       const options = {
         method: 'GET',
         url: `${this.baseUrlGateway}/transaction`,
+        headers: {
+          Accept: 'application/json'
+        },
         auth: this.auth
       };
 
