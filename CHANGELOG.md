@@ -29,3 +29,7 @@
 ## [2.0.3] - 2016-12-14
 ### Fixed
 - Fix production url
+
+## [2.1.0] - 2017-11-08
+### Changed
+- Add an extra header
